@@ -1,0 +1,54 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local environment files and logs
+.env
+.env.*
+*.log
+*.tmp
+~$*
+
+# Archives are distribution copies rather than source
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Large reproducible pipeline artefacts
+generated_output/
+two_stage_data/
+two_stage_internal_truth/
+two_stage_validation/
+two_stage_saved_models/
+educator_validation/
+
+# Local reproducibility records depend on the execution environment
+two_stage_results/reproducibility_baseline_hashes.json
+two_stage_results/reproducibility_check.json
+
+# Internal development notes
+REPORT_ALIGNMENT_REQUIRED_CHANGES.md
+
+

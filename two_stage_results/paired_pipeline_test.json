@@ -1,0 +1,12 @@
+{
+  "comparison": "RF two-stage vs Rule pipeline",
+  "metric": "per-learner mean normalized-regret difference",
+  "learners": 489,
+  "events": 991,
+  "mean_difference": 0.059546955114230186,
+  "median_difference": 0.0,
+  "wilcoxon_statistic": 29942.0,
+  "two_sided_p_value": 1.0984415079039053e-06,
+  "direction": "Negative values favour RF two-stage; positive values favour Rule pipeline.",
+  "claim_boundary": "Controlled simulator evidence only."
+}

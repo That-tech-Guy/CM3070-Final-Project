@@ -1,0 +1,26 @@
+{
+  "topic_stage": {
+    "ridge_best_parameters": {
+      "model__alpha": 100.0
+    },
+    "ridge_grouped_cv_mae": 9.428780126707135,
+    "random_forest_best_parameters": {
+      "model__max_depth": 8,
+      "model__max_features": "sqrt",
+      "model__min_samples_leaf": 4
+    },
+    "random_forest_grouped_cv_mae": 9.482699228125048
+  },
+  "resource_stage": {
+    "ridge_best_parameters": {
+      "model__alpha": 100.0
+    },
+    "ridge_grouped_cv_mae": 9.387533693924647,
+    "random_forest_best_parameters": {
+      "model__max_depth": 8,
+      "model__max_features": "sqrt",
+      "model__min_samples_leaf": 8
+    },
+    "random_forest_grouped_cv_mae": 9.500320208401137
+  }
+}

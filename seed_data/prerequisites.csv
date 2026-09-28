@@ -1,0 +1,13 @@
+prerequisite_topic_id,dependent_topic_id,edge_rationale,edge_status
+T01,T02,"Variables must be declared and updated before conditions can act on their values",provisional_researcher_judgement
+T01,T03,"Loop counters and state variables depend on variable declaration and update",provisional_researcher_judgement
+T01,T05,"Functions commonly receive, return and manipulate typed variables",provisional_researcher_judgement
+T01,T04,"Arrays require typed declarations, indices and assignment",provisional_researcher_judgement
+T09,T10,"Truth values and Boolean operations support interpretation of gate behaviour",provisional_researcher_judgement
+T02,T08,"Tracing conditional branches requires understanding selection",provisional_researcher_judgement
+T03,T04,"Array traversal commonly requires iteration",provisional_researcher_judgement
+T03,T07,"Reading or writing multiple file records commonly requires iteration",provisional_researcher_judgement
+T03,T08,"Tracing loops requires understanding their state changes and termination",provisional_researcher_judgement
+T05,T07,"File-processing programs are normally decomposed into functions",provisional_researcher_judgement
+T04,T07,"File-processing tasks commonly load records or values into arrays",provisional_researcher_judgement
+T06,T08,"A trace table desk-checks the execution of a stated algorithm",provisional_researcher_judgement

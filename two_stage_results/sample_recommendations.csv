@@ -1,0 +1,6 @@
+event_id,learner_id,recommended_topic,recommended_resource,topic_current_score,unmet_prerequisite_count,resource_difficulty,desired_resource_difficulty,tfidf_similarity,controlled_oracle_gain_points,explanation
+E000006,L0001,File Processing,C Files,12.5000000000,2,2,1,0.0960012100,6.1460284223,Topic score 12; 2 unmet prerequisites; resource difficulty 2 for desired band 1.
+E000007,L0001,File Processing,C File Input/Output,12.5000000000,1,2,1,0.1116045900,6.0650351133,Topic score 12; 1 unmet prerequisites; resource difficulty 2 for desired band 1.
+E000014,L0002,Selection,C Conditions and If Statements,37.5000000000,0,1,1,0.1288419400,6.3792691594,Topic score 38; 0 unmet prerequisites; resource difficulty 1 for desired band 1.
+E000015,L0002,Selection,C Conditions and If Statements,37.5000000000,0,1,1,0.1288419400,6.3792691594,Topic score 38; 0 unmet prerequisites; resource difficulty 1 for desired band 1.
+E000022,L0003,Boolean Logic,C Operators,75.0000000000,0,1,3,0.1710980300,5.2385715644,Topic score 75; 0 unmet prerequisites; resource difficulty 1 for desired band 3.

@@ -1,0 +1,68 @@
+{
+  "dataset_version": "1.0.0",
+  "scenario": "balanced_v1",
+  "random_seed": 3070,
+  "n_learners": 500,
+  "interaction_count": {
+    "minimum": 4,
+    "poisson_lambda": 4.0,
+    "maximum": 12
+  },
+  "diagnostic": {
+    "items_per_topic": 8,
+    "discrimination": 5.0,
+    "occasion_threshold_noise_sd": 0.06,
+    "item_difficulty_offsets": [-0.24, -0.16, -0.09, -0.03, 0.03, 0.09, 0.16, 0.24],
+    "post_assessment_probability_after_completion": 0.9
+  },
+  "learner_profiles": {
+    "general": 0.90,
+    "high_mastery_low_confidence": 0.025,
+    "low_mastery_high_confidence": 0.025,
+    "capable_low_engagement": 0.025,
+    "persistent_support_need": 0.025
+  },
+  "formats": ["text", "practice", "interactive", "video"],
+  "target_topic_selection": {
+    "eligible_topic_count": 5,
+    "weakness_weight": 1.0,
+    "downstream_weight": 0.18,
+    "prerequisite_support_weight": 0.12,
+    "repeat_topic_penalty": 0.08,
+    "softmax_temperature": 0.28
+  },
+  "resource_selection": {
+    "semantic_similarity_weight": 1.1,
+    "difficulty_match_weight": 0.7,
+    "format_affinity_weight": 0.8,
+    "latent_appeal_weight": 0.35,
+    "softmax_temperature": 0.35,
+    "exploration_probability": 0.18
+  },
+  "completion": {
+    "intercept": -1.05,
+    "engagement_weight": 2.0,
+    "format_match_weight": 0.75,
+    "difficulty_match_weight": 0.55,
+    "latent_appeal_weight": 0.45,
+    "duration_penalty": 0.65,
+    "overchallenge_penalty": 0.8
+  },
+  "latent_learning": {
+    "base": 0.015,
+    "resource_quality_weight": 0.11,
+    "format_match_weight": 0.035,
+    "difficulty_match_weight": 0.04,
+    "prerequisite_readiness_weight": 0.035,
+    "incomplete_exposure_multiplier": 0.15,
+    "process_noise_sd": 0.012,
+    "maximum_single_interaction_mastery_gain": 0.18
+  },
+  "rating": {
+    "probability_after_completion": 0.75,
+    "noise_sd": 0.55
+  },
+  "chronological_holdout_fraction": 0.2,
+  "generator_assumption_status": "calibrated_for_controlled_simulation_not_empirically_estimated",
+  "claim_boundary": "Supports controlled pipeline and recommendation-quality evaluation only; not evidence of real student learning effects"
+}

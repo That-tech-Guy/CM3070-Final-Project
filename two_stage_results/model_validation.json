@@ -1,0 +1,20 @@
+{
+  "random_seed": 3070,
+  "topic_predictor_count": 36,
+  "resource_predictor_count": 23,
+  "prohibited_topic_predictors": [],
+  "prohibited_resource_predictors": [],
+  "topic_training_rows": 1681,
+  "topic_test_rows": 592,
+  "resource_training_rows": 1681,
+  "resource_test_rows": 592,
+  "established_event_count": 991,
+  "ten_topic_candidates_per_event": true,
+  "forty_resource_candidates_per_event": true,
+  "cold_start_splits": 5,
+  "rule_sensitivity_scenarios": 9,
+  "educator_review_cases": 10,
+  "educator_review_uses_synthetic_profiles_only": true,
+  "educator_review_blinding_key_is_separate": true,
+  "claim_boundary": "Controlled simulator evidence only; not real learner benefit."
+}
